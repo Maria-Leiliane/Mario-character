@@ -4,7 +4,9 @@
   "description": "api-learn",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node api/src/server.js",
+    "dev": "nodemon api/src/server.js"
   },
   "author": "Maria Leiliane",
   "license": "ISC",
