@@ -4,13 +4,17 @@
   "description": "api-learn",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node api/src/server.js",
+    "dev": "nodemon api/src/server.js"
   },
   "author": "Maria Leiliane",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8",
     "mysql2": "^3.10.2"
   },
   "devDependencies": {
