@@ -4,10 +4,11 @@
   "description": "api-learn",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "start": "node api/src/server.js",
-    "dev": "nodemon api/src/server.js"
-  },
+      "test": "test",
+      "start": "node api/src/server.js",
+      "dev": "nodemon api/src/server.js",
+      "filter": "nodemon api/src/server.js --mappedAndFilteredCharacters"
+},
   "author": "Maria Leiliane",
   "license": "ISC",
   "dependencies": {
