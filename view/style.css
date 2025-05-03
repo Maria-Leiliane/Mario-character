@@ -29,12 +29,47 @@ header {
     color: rgb(44, 0, 44);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
 h1 {
-    margin-left: 200px;
+    margin-left: 10vw; /* usa 10% da largura da tela */
 }
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    h1 {
+        margin-left: 5vw;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        margin-left: 2vw;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
 h2 {
     margin-left: 200px;
 }
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    h2 {
+        margin-left: 5vw;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        margin-left: 2vw;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
 
 .card-container {
     display: flex;
